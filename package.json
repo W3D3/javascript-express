@@ -1,6 +1,6 @@
 {
   "name": "@w3d3/express-opentracing",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "opentracing middleware for express-js",
   "main": "dist/index.js",
   "types": "index.d.ts",
