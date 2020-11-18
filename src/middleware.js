@@ -16,6 +16,7 @@ export default function middleware(options = {}) {
     span.setTag("http.method", req.method);
     span.setTag("span.kind", "server");
     span.setTag("http.url", fullUrl);
+    span.setTag("component", "express");
 
     // include trace ID in headers so that we can debug slow requests we see in
     // the browser by looking up the trace ID found in response headers
